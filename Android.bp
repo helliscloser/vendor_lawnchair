@@ -16,6 +16,7 @@ android_app_import {
         "Home",
         "Launcher2",
         "Launcher3",
+	"PixelLauncher",
         "Launcher3QuickStep",
         "NexusLauncherRelease",
     ],
