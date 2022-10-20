@@ -6,9 +6,10 @@
 
 ***Getting started***
 
-1. Add this repository to your AOSP build root's vendor/lawnchair
+1. Add this repository to your AOSP build root's <br>
+`vendor/lawnchair`
 
-2. Import lawnchair to rom_devicecode.mk
+2. Import lawnchair to **rom_devicecode.mk** _(Example: cherish_davinci.mk)_
 > `$(call inherit-product, vendor/lawnchair/lawnchair.mk)` * inherit-product <br>
 **OR**<br>
 > `$(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)` * inherit-product-if-exists
